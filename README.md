@@ -4,7 +4,7 @@ This repository is an example the codes for the paper [A Spatial-Channel-Tempora
 
 ## Requirement
 - Python 3.6
-- trorch 1.4.0
+- torch 1.4.0
 - torchvision 0.5.0
 - CUDA 10.0
 - MNIST-DVS dataset
