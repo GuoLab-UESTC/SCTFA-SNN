@@ -4,4 +4,15 @@ This repository is an example the codes for the paper [A Spatial-Channel-Tempora
 
 ## Requirement
 - Python 3.8
+- cuda 10.0.130
+- cudnn 7.6.5.32
 - MNIST-DVS dataset
+
+## Citation
+If you find this repo useful for your research, please consider citing the paper
+
+'''
+@article(
+
+)
+'''
