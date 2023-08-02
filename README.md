@@ -9,6 +9,11 @@ This repository is an example the codes for the paper [A Spatial-Channel-Tempora
 - CUDA 10.0
 - MNIST-DVS data
 
+## Running Example
+1. running the timeclics.py to split MNIST-DVS dataset into 20 timewindows with 25ms
+2. Train the SCTFA-SNN model by running main.py
+
+
 ## Citation
 If you find this repository useful for your research, please consider citing the paper
 
