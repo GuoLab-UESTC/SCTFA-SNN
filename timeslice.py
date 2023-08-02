@@ -3,7 +3,7 @@ import scipy.io as scio
 import os
 
 
-def my_chunk_evs_pol_dvs(data, dt=1000 * 100, T=5, size=[2, 128, 128]):
+def my_chunk_evs_pol_dvs(data, dt=1000 * 25, T=20, size=[2, 128, 128]):
     t_start = data[0][0]
     ts = range(t_start, t_start + T * dt, dt)
     chunks = np.zeros([len(ts)] + size, dtype='int8')
