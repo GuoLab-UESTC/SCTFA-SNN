@@ -7,7 +7,7 @@ This repository is an example the codes for the paper [A Spatial-Channel-Tempora
 - torch 1.4.0
 - torchvision 0.5.0
 - CUDA 10.0
-- MNIST-DVS data
+- MNIST-DVS dataset
 
 ## Running Example
 1. Running the timeslice.py to split MNIST-DVS dataset into 20 time windows with 25ms;
