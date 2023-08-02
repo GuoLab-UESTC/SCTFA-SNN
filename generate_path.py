@@ -1,7 +1,7 @@
 import numpy as np
 
 
-for scale in [4, 8, 16]:
+for scale in [4]:
     path = []
     for n in range(10):
         for j in range(1, 1001):
