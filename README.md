@@ -13,7 +13,10 @@ This repository is an example the codes for the paper [A Spatial-Channel-Tempora
 If you find this repo useful for your research, please consider citing the paper
 
 ```
-@article(
-
-)
+@ARTICLE{cai2023spatial,
+  author={Cai, Wuque and Sun, Hongze and Liu, Rui and Cui, Yan and Wang, Jun and Xia, Yang and Yao, Dezhong and Guo, Daqing},
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={A Spatial–Channel–Temporal-Fused Attention for Spiking Neural Networks}, 
+  year={2023},
+  doi={10.1109/TNNLS.2023.3278265}}
 ```
