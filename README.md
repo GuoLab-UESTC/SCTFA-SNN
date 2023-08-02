@@ -7,6 +7,7 @@ This repository is an example the codes for the paper [A Spatial-Channel-Tempora
 - torch 1.4.0
 - torchvision 0.5.0
 - CUDA 10.0
+- MNIST-DVS data
 
 ## Citation
 If you find this repository useful for your research, please consider citing the paper
