@@ -10,8 +10,8 @@ This repository is an example the codes for the paper [A Spatial-Channel-Tempora
 - MNIST-DVS data
 
 ## Running Example
-1. running the timeclics.py to split MNIST-DVS dataset into 20 timewindows with 25ms
-2. Train the SCTFA-SNN model by running main.py
+1. Running the timeslice.py to split MNIST-DVS dataset into 20 time windows with 25ms;
+2. Train the SCTFA-SNN model by running main.py.
 
 
 ## Citation
