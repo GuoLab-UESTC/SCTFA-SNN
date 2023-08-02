@@ -1,5 +1,5 @@
 from parameters import *
-import net_pop as net_pop
+import net_pop
 import copy
 
 import time
