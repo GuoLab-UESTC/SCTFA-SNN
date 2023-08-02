@@ -11,8 +11,8 @@ This repository is an example the codes for the paper [A Spatial-Channel-Tempora
 ## Citation
 If you find this repo useful for your research, please consider citing the paper
 
-'''
+```
 @article(
 
 )
-'''
+```
