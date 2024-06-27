@@ -70,7 +70,7 @@ class atan(torch.autograd.Function):
     @staticmethod
     def forward(ctx, x):
         ctx.save_for_backward(x)
-        return x.gt(thresh).float()
+        return x.gt(0.).float()
 
     @staticmethod
     def backward(ctx, grad_output):
@@ -84,7 +84,7 @@ def mem_update(ops, x, mem, spike, BN=False):
         mem = mem * decay * (1. - spike) + BN(ops(x))
     else:
         mem = mem * decay * (1. - spike) + ops(x)
-    spike = atan.apply(mem)
+    spike = atan.apply(mem-thresh)
     return mem, spike
 
 '''attention'''
